@@ -1,0 +1,22 @@
+{
+  "name": "jellybeanbot",
+  "author": "ZYROUGE",
+  "version": "0.0.1",
+  "description": "JellyBeanBot UwU",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "^11.5.1",
+    "bongocat.js": "^0.0.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/bongodiscordcat"
+  },
+  "license": "MIT"
+}
