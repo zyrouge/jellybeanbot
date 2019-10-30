@@ -24,7 +24,8 @@ const listener = app.listen(process.env.PORT, function() {
 //Code Starts Here
 const Discord = require("discord.js");
 const fs = require('fs');
-const client = new Discord.Client()
+const client = new Discord.Client();
+const { token } = require("./config.json");
 
 fs.readdir("./events/", (err, files) => {
   
@@ -55,4 +56,4 @@ fs.readdir("./commands/", (err, files) => {
     });
 });
 
-client.login(process.env.TOKEN)
+client.login(token)
